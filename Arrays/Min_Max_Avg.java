@@ -26,8 +26,8 @@ public class Min_Max_Avg {
         }
         double avg = (double) sum / n;
         System.out.println("Max value is: "+max);
-        System.out.println("Max value is: "+min);
-        System.out.println("Max value is: "+avg);
+        System.out.println("min value is: "+min);
+        System.out.println("avg value is: "+avg);
 
 
 
