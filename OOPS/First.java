@@ -13,8 +13,6 @@ public class First {
     }
     
 }
-
-
 class BankAccount{
     public String username;
      private String Password;
