@@ -8,7 +8,9 @@ public class Method {
         String st=str.substring(8, 10);
         int num=str.compareTo(str1);
         int num1=str1.compareTo(str);
-        System.out.println(len +" "+ch +" "+st+" "+num +" "+num1);
+        int id=str.indexOf('o');
+        int id1=str.lastIndexOf('o');
+        System.out.println(len +" "+ch +" "+st+" "+num +" "+num1 + " "+id +" " +id1);
 
 
 
