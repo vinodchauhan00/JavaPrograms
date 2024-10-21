@@ -20,4 +20,5 @@ void display(){
     System.out.println("Length:"+this.length+"Breadth:"+this.breadth);
     System.out.println("Area:"+(this.length*this.breadth));
 }
+    
 }
