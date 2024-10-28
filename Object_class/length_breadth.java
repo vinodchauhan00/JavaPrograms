@@ -5,9 +5,7 @@ public class length_breadth {
     public static void main(String[] args) {
         Rectangle R1=new Rectangle();
         R1.display();
-
-    }
-    
+    }  
 }
 
 class Rectangle{
