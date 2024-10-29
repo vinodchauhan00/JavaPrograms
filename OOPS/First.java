@@ -2,33 +2,35 @@ package OOPS;
 
 public class First {
     public static void main(String[] args) {
-        Student s1=new Student("Vinod", 20);
+        Student s1 = new Student("Vinod", 20);
+        // Uncomment the line below if you want to print the student's name
         // System.out.println(s1.name);
-        BankAccount BA=new BankAccount();
-        BA.username="Vinod23";
-        BA.Setpassword("Vinod@123");
-        System.out.println(BA.username);
-
         
+        BankAccount bankAccount = new BankAccount();
+        bankAccount.username = "Vinod23";
+        bankAccount.setPassword("Vinod@123");
+        System.out.println(bankAccount.username);
     }
-    
 }
-class BankAccount{
+
+class BankAccount {
     public String username;
-     private String Password;
-     public void Setpassword(String Pwd){
-        Password=Pwd;
-        
-     }
-}
-class Student{
-     static String College="GLA";//static variable
-    String name; //instance variable
-    int age;
-    Student (String nm,int ag)
-    {
-       name=nm;
-       age=ag;
+    private String password; // Renamed to follow standard camelCase
+    
+    // Method name changed to follow standard Java naming conventions
+    public void setPassword(String pwd) {
+        this.password = pwd;
     }
 }
 
+class Student {
+    static String college = "GLA"; // Renamed to follow standard camelCase
+    String name; // Instance variable
+    int age;
+
+    // Constructor
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
