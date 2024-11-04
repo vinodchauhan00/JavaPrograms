@@ -1,5 +1,5 @@
 // ---largest number and small values
-package Arrays;
+
 import java.util.*;
 
 public class Array_larg_small {

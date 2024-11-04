@@ -1,4 +1,4 @@
-package Arrays;
+
 import java.util.*;
 public class Array_input {
     public static void main(String[] args) {
