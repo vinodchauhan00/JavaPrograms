@@ -17,7 +17,6 @@ class MathOperations {
         return a + b;
     }
 }
-
 public class Overloaded  {
     public static void main(String[] args) {
         MathOperations math = new MathOperations();
